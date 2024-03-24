@@ -2,6 +2,9 @@
 body {
 margin : 0;
 font-family : Helvetica, Arial, Sans-Serif;
+font-size: 18px;
+line-height: 25px;
+
 }
 header {
 background-color : #d14635;
@@ -21,18 +24,25 @@ color: white;
 	
 }
 
-p {
-	font-size: 30px;
+a{
+	color: #e70c19;
 }
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+
+
 
 h2 {
 	font-size: 30px;
-	color: #0a7ab8;
+	color: #e70c19;
 }
 
 main{
 	max-width: 800px;
-padding: 0 20px;
+    padding: 20px;
+	margin: 0 auto;
 	
 }
 main img{
@@ -44,4 +54,19 @@ header img {
 border-radius : 170px;
 width : 300px;
 border : #d15635 solid 20px;
+}
+
+footer {
+    background-color: #d14635;
+    text-align: center;
+    color: aliceblue;
+    padding:50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	color:#999999;
 }
