@@ -1,30 +1,27 @@
 @charset "UTF-8";
-/* CSS Document */
-body{
-	margin: 0;
-	font-family: Helvetica, Arial, Sans-Serif;
+body {
+margin : 0;
+font-family : Helvetica, Arial, Sans-Serif;
 }
-
 header {
-	background-color: #d14635;
-	text-align: center;
-	padding-bottom: 80px;
-	padding-top: 50px;
-		
+background-color : #d14635;
+text-align : center;
+padding-bottom : 80px;
+padding-top : 50px;
+}
+h1, h2 {
+ 
+    font-family: 'Press Start 2P', sans-serif;
+}
 
-
-
-		
+}
+header h1 {
+font-size: 55px;
+color: white;
 	
 }
-header h1{
-	color:white;
-	
-	
-}
-header img{
-	border-radius: 170px;
-	width: 300px;
-    border: 20px solid #d15635;
-	
+header img {
+border-radius : 170px;
+width : 300px;
+border : #d15635 solid 20px;
 }
