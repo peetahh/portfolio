@@ -25,6 +25,10 @@ main{
 	max-width: 800px;
 	
 }
+main img{
+	max-width: 100%;
+	
+}
 header img {
 border-radius : 170px;
 width : 300px;
