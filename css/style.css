@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+
+.footer{
+	width: 100vw;]
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+	background-color: #18181a;
+}
+
+.inner_footer{
+	display:block;
+	margin:0 auto;
+	width: 110 px;
+	height: 100%;
+}
+
+.inner_footer.logo_container{
+	width: 35%;
+	float:left;
+	height: 100%;
+	display:block;
+	
+}
+
+.inner_footer.logo_container{
+	widht: 80%;
+	height: auto;
+}
+
+.inner_footer .footer_third{
+	width: calc(21.6666666667% - 20px);
+	margin-right: 10px;
+	float:left;
+	height: 100%
+		
+}
+.inner_footer .footer_third:last-child{
+	margin-right: o;
+}
+
+.inner_footer .footer_third h1{
+	font-family: 'MavenPro Regular';
+	font-size: 22px;
+	color:white;
+	display:block;
+	height: 100%;
+	margin-bottom: 20px;
+}

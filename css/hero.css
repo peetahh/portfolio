@@ -9,8 +9,8 @@ line-height: 25px;
 header {
 background-color : #d14635;
 text-align : center;
-padding-bottom : 80px;
 padding-top : 50px;
+padding-bottom : 50px;
 }
 h1, h2 {
  
@@ -24,25 +24,17 @@ color: white;
 	
 }
 
-a{
-	color: #e70c19;
-}
-a:hover{
-	color: white;
-	background-color: #483a94;
-}
-
-
 
 h2 {
 	font-size: 30px;
 	color: #e70c19;
+	margin: 40px o 10px;
 }
 
 main{
 	max-width: 800px;
-    padding: 20px;
-	margin: 0 auto;
+    margin: 0 auto;
+	padding: 20px;
 	
 }
 main img{
@@ -56,11 +48,19 @@ width : 300px;
 border : #d15635 solid 20px;
 }
 
+a{
+	color: #e70c19;
+}
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+
 footer {
     background-color: #d14635;
     text-align: center;
     color: aliceblue;
-    padding:50px;
+    padding: 50px;
 }
 
 footer p{
@@ -69,4 +69,8 @@ footer p{
 
 p.caption{
 	color:#999999;
+	font-style: italic, oblique;
+	margin: 0
+		
+	
 }
